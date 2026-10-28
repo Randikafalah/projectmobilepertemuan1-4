@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:stretchColumns="1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:background="#CCCCCC" android:padding="8dp">
+            <TextView android:text="ATRIBUT" android:textStyle="bold" />
+            <TextView android:text="KETERANGAN" android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="Nama Pegawai" />
+            <TextView android:id="@+id/tvResNama" android:text="-" />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="Usia Pegawai" />
+            <TextView android:id="@+id/tvResUsia" android:text="-" />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="Jabatan" />
+            <TextView android:id="@+id/tvResJabatan" android:text="-" />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="Keahlian" />
+            <TextView android:id="@+id/tvResKeahlian" android:text="-" />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="Jenis Kelamin" />
+            <TextView android:id="@+id/tvResGender" android:text="-" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

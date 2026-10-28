@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow android:background="#E0E0E0" android:padding="8dp">
+        <TextView android:text="ATRIBUT" android:textStyle="bold" android:padding="5dp"/>
+        <TextView android:text="KETERANGAN" android:textStyle="bold" android:padding="5dp"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView android:text="Nama Pegawai" android:padding="5dp"/>
+        <TextView android:id="@+id/tvResNama" android:text="-" android:padding="5dp" android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView android:text="Usia Pegawai" android:padding="5dp"/>
+        <TextView android:id="@+id/tvResUsia" android:text="-" android:padding="5dp" android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView android:text="Jabatan" android:padding="5dp"/>
+        <TextView android:id="@+id/tvResJabatan" android:text="-" android:padding="5dp" android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView android:text="Keahlian" android:padding="5dp"/>
+        <TextView android:id="@+id/tvResKeahlian" android:text="-" android:padding="5dp" android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView android:text="Jenis Kelamin" android:padding="5dp"/>
+        <TextView android:id="@+id/tvResGender" android:text="-" android:padding="5dp" android:textColor="#000000"/>
+    </TableRow>
+
+</TableLayout>

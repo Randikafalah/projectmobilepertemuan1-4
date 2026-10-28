@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/gedungunikom"
+            android:scaleType="fitXY"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="150dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <TextView
+        style="@style/TextContent.Name"
+        android:text="Asep Solihin"/>
+    <TextView
+        style="@style/TextContent.Heading"
+        android:text="Judul Skripsi"/>
+    <TextView
+        style="@style/TextContent.SubHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Pengembangan Sistem Informasi Akademik Berbasis
+Android Pada Universitas Komputer Indonesia"/>
+    <TextView
+        style="@style/TextContent.Heading"
+        android:text="Data Mahasiswa"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/TextSpec.Field"
+                android:text="NIM"/>
+            <TextView
+                style="@style/TextSpec.Field"
+                android:text=":"/>
+            <TextView
+                style="@style/TextSpec.Value"
+                android:text="10924008"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/TextSpec.Field"
+                android:text="Semester"/>
+            <TextView
+                style="@style/TextSpec.Field"
+                android:text=":"/>
+            <TextView
+                style="@style/TextSpec.Value"
+                android:text="IV"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        style="@style/TextContent.Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Dosen Pembimbing"
+        android:layout_margin="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="150dp"
+            android:layout_gravity="bottom"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rndk"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            style="@style/TextContent.Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/profile_image"
+            android:text="Randika Falah"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Ubah Data"/>
+</LinearLayout>

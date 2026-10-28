@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UI</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="resource">Resource</string>
+    <string name="get_full_name">Full Name: %1$s</string>
+    <string-array name="prodi">
+        <item>Sistem Informasi</item>
+        <item>Manajemen Informatika</item>
+    </string-array>
+</resources>

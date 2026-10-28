@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Materi4Bagian1</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="sending_data">SENDING DATA</string>
+    <string name="type_a_number">Type a number</string>
+    <string name="dial_a_number">DIAL A NUMBER</string>
+</resources>

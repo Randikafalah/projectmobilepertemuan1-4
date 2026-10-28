@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Materi4Bagian2</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="family_group">Family (Group)</string>
+    <string name="friends_group">Friends (Group)</string>
+    <string name="sim_1">SIM 1</string>
+    <string name="sim_2">SIM 2</string>
+    <string name="save">Save</string>
+    <string-array name="label">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>

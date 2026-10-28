@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MI-1_10924008</string>
+    <string-array name="jabatan_array">
+        <item>Programmer</item>
+        <item>System Analyst</item>
+        <item>Database Administrator</item>
+        <item>Network Engineer</item>
+    </string-array>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet.</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+</resources>
